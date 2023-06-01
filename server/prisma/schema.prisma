@@ -12,7 +12,7 @@ model User {
   githubID  Int    @unique
   name      String
   login     String
-  avatarURL String
+  avatarUrl String
 
   memories Memory[]
 }

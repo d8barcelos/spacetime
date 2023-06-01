@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { object, z } from "zod";
+import { z } from "zod";
 import { prisma } from "../lib/prisma";
 
 export async function memoriesRoutes(app: FastifyInstance) {
